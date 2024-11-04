@@ -99,3 +99,9 @@ if prompt := st.chat_input("Message Bedrock..."):
 
     # 보조 응답 세션 상태에 추가
     st.session_state.messages.append({"role": "assistant", "content": model_output})
+
+#LangChain 추가의 장점
+# 관리 용이성: LangChain이 대화 관리와 메시지 기록을 자동화하므로 코드가 더 간결해지고 유지보수가 용이합니다.
+#다양한 대화 관리 옵션: LangChain의 템플릿과 히스토리 관리 기능을 통해 복잡한 대화 로직을 쉽게 추가할 수 있습니다.
+#유연성 증가: 프롬프트 템플릿을 사용하여 다양한 응답 방식과 대화 히스토리를 적용할 수 있어 대화 스타일을 유연하게 변경할 수 있습니다.
+#랭체인 -> 구현 -> ui 완성 -> 차별점 
